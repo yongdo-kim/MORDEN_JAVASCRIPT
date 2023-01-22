@@ -18,6 +18,7 @@
     2-2 ok
     2-3 ok
     2-4 ok
+    2-5 ok
  -->
 
 <!DOCTYPE html>
@@ -31,8 +32,8 @@
             let message; 
             message = "Hello"; 
             alert(`yongdo ${message}`);
-            //alert( 1 / 0 ); == alert( Infinity ) 
-            //alert( "숫자가 아님" / 2 ); == NaN
+            let isBoss = confirm("당신이 주인인가요?");
+            alert( isBoss ); // 확인 버튼을 눌렀다면 true가 출력됩니다.
         </script>
     </head>
     <body></body>
