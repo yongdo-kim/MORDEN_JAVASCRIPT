@@ -1,0 +1,26 @@
+<!-- 
+    <script type="text/javascript">은 더이상 hmlt5에서는 사용안됨
+    스크립트를 별도의 파일에 작성하면 브라우저가 스크립트를 다운받아 캐시(cache)에 저장 : 분리하는 이점
+    코드를 클래스와 모듈을 사용해 구성한다면 "use strict"를 생략가능
+    let message를 쓰면 계속 변수 값 할당 가능.
+    const message를 쓰면 단 한번만 할당이 가능.
+    2-1 ok
+    2-2 ok
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+            let message; 
+            message = "Hello"; 
+            alert(message);
+        </script>
+    </head>
+    <body></body>
+</html>
