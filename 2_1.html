@@ -33,7 +33,29 @@
         - !==는 부등 연산자 !=의 엄격한 버전, 에러가 발생할 확률을 줄여줌
     null이나 undefined와 비교하기
         - alert( null == undefined ); // true
-        
+    함수선언식
+        -   function sayHi() {
+                alert( "Hello" );
+            }
+    함수표현식
+        - let sayHi = function() {
+                alert( "Hello" );
+            };
+    함수선언식 vs 함수표현식
+        - 1. 문법이 다름 : 생김새가 다름
+        - 2. 호출순서가 다름, 함수표현식은 도달했을때 발생, 함수선언식은 시작시 발생 
+        - 3. 스코프가 다름 : 
+            - 함수선언문 : 코드블록안에서는 접근 가능, 코드블록을 빠져나가면 외부에서 접근 불가능 
+            - 함수표현식 : 변수를 만들어서 외부에서 참조할 수 있음. 
+    화살표함수
+        - let func = (arg1, arg2, ...argN) => expression
+        - 인수가 하나도 없을 땐 괄호를 비워놓으면 됩니다. 다만, 이 때 괄호는 생략할 수 없습니다. 
+        - let sayHi = () => alert("안녕하세요!");
+        let sum = (a, b) => {   (dart 달리 화살표는 남겨둠)
+            let result = a + b;
+            return result;
+        };
+
 
 
 
