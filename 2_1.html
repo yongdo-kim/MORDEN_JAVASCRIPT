@@ -22,7 +22,19 @@
         - alert( "6" / "2" ); // 3, 문자열이 숫자형으로 자동변환된 후 연산이 수행
         - let num = Number(str); // 문자열 "123"이 숫자 123으로 변환됩니다.
         - 숫자 1은 true, 0, 0, null, undefined, NaN, ""는 false 
-        - 문자열 "0"은 true " " 공백도 true 
+        - 문자열 "0"은 true " " 공백도 true
+    비교연산자
+        - alert( '2' > 1 ); // true, 문자열 '2'가 숫자 2로 변환된 후 비교가 진행
+        - alert( true == 1 ); // true
+    일치연산자
+        - 동등 연산자(equality operator) ==은 0과 false를 구별하지 못합니다. : false를 0으로 바꾸기 때문 
+        - 일치 연산자는 엄격한(strict) 동등 연산자입니다. 자료형의 동등 여부까지 검사
+        - alert( 0 === false ); // false, 피연산자의 형이 다르기 때문입니다. 
+        - !==는 부등 연산자 !=의 엄격한 버전, 에러가 발생할 확률을 줄여줌
+    null이나 undefined와 비교하기
+        - alert( null == undefined ); // true
+        
+
 
 
     2-1 ok
