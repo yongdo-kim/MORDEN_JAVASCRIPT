@@ -1,5 +1,6 @@
 /* 
-https://ko.javascript.info를 기반으로 스터디한 내용 
+23.01.20
+https://ko.javascript.info를 기반으로 스터디한 내용 && 코딩앙마 JS.TS에 강의를 합본으로 합니다. 
 
 자바스크립트는 ‘웹페이지에 생동감을 불어넣기 위해’ 만들어진 프로그래밍 언어
 ECMAScript라는 고유한 명세를 갖춘 독립적인 언어
