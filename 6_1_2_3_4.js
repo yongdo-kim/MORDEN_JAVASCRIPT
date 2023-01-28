@@ -112,3 +112,26 @@ if (true) {
 
   preValue = "A";
   var preValue //나중에 선언해도 ok 
+
+
+
+  /*
+  var : 한번 선언된 변수에 다시 선언 가능, let은 불가능
+var name = "Make";
+var name = "Jane"
+
+var 는 선언전에 가능 -> 런타임 시점에 var는 로직상 최상위로 이동 : 호이스팅 (선언만)
+console.log(name); //Mike, 
+var name = "Mike";
+
+let const는 TDZ에 영향을 받음, 호이스팅이 되지만 할당하기전 사용 불가. error 
+
+var는 1. 선언 및 초기화단계  2. 할당 단계
+let은 1. 선언 2. 초기화 3. 할당으로 이루어짐. 
+const는 1. 선언+초기화+할당이 이루어짐. 
+
+var : 함수스코프 : function() {  } 안에서만 영향 
+let : 블록스코프 : { } 안에서만 영향
+
+var는 사용되지 않고, let, const를 추천 
+  */
